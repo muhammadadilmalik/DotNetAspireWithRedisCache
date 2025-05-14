@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetAspireWithRedisCache", "DotNetAspireWithRedisCache\DotNetAspireWithRedisCache.csproj", "{014BE841-4919-478B-AA2A-B406E5521D13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetAspireWithRedisCache.AppHost", "DotNetAspireWithRedisCache.AppHost\DotNetAspireWithRedisCache.AppHost.csproj", "{57E3770B-EFDE-439A-97E0-13576BE4EE8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetAspireWithRedisCache.ServiceDefaults", "DotNetAspireWithRedisCache.ServiceDefaults\DotNetAspireWithRedisCache.ServiceDefaults.csproj", "{11AA103E-54B9-79D5-EA9E-56868C2D2D28}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{014BE841-4919-478B-AA2A-B406E5521D13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{014BE841-4919-478B-AA2A-B406E5521D13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{014BE841-4919-478B-AA2A-B406E5521D13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57E3770B-EFDE-439A-97E0-13576BE4EE8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57E3770B-EFDE-439A-97E0-13576BE4EE8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57E3770B-EFDE-439A-97E0-13576BE4EE8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57E3770B-EFDE-439A-97E0-13576BE4EE8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11AA103E-54B9-79D5-EA9E-56868C2D2D28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11AA103E-54B9-79D5-EA9E-56868C2D2D28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11AA103E-54B9-79D5-EA9E-56868C2D2D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11AA103E-54B9-79D5-EA9E-56868C2D2D28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
